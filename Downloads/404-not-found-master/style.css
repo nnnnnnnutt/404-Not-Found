@@ -1,0 +1,74 @@
+.text-title{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #333333;
+}
+
+.text-header{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.text{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.text-credit{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.picture{
+    width: 50%;
+}
+
+.btn{
+    width:216px;
+    height: 68px;
+    background: #333333;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 600px) {
+    .text-header {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .picture{
+        width: 60%;
+        height: 60%;
+    }
+  }
